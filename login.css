@@ -12,3 +12,34 @@
     --cor-texto: #333;
     --fonte
 }
+/*--------container--------*/
+.container {
+    background: var(--cor-bg);
+    padding :clamp(2rem, 5vw, 3rem);
+    border
+}
+/*------input------*/
+input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 8;
+    border: 1px solid ;
+}
+input:focus {
+    border-color: var(--cor--primaria);
+    outline: none;
+    box-shadow: 0 0 0 3px (rgba 107,115,255,8.25);
+    
+}
+.botoes {
+    display: flex;
+    flex-direction: colum;
+    gap: 12px;
+    margin-top:  20px;
+
+}
+ button {
+    padding: ;
+    font-weight: 500;
+
+}
